@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:gray;
+    position: sticky;
+    top: 0;
+    animation-name: navbars;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes navbars{
+    0%   {background-color: red;}
+ 25%  {background-color: yellow;}
+ 50%  {background-color: blue;}
+ 100% {background-color: green;}
+
+}
+.nav{
+    height: 100px;
+    width: 1319px;
+    margin-left: 9%;
+    display: flex;
+}
+.nav{
+    animation-name: navbars;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+} 
+@keyframes navbars{
+    0%   {background-color: red;}
+ 25%  {background-color: yellow;}
+ 50%  {background-color: blue;}
+ 100% {background-color: green;}
+
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.logo img{
+    height: 100px;
+    width: 120px;
+}
+.navbar{
+    height: 100px;
+    width: 800px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, .5fr);
+    text-align: center;
+    align-items: center;
+    list-style: none; 
+}
+.navbar li{
+   font-size: 14px;
+   font-weight: 700;
+}
+.butto{
+    width: 200px;
+    height: 100px;   
+}
+button{
+    height: 30px;
+    width: 80px;
+    margin-top: 37px;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+}
+.sheet1{
+    width: 100%;
+    height: 1500px;
+    background-image: url(image/background1.PNG);
+    background-size: cover;
+
+}
+.first{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.first h1{
+    font-size: 120px;
+    color: white;
+}
+input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+input[type=submit]{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: orange;
+}
+.register{
+    width: 30%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    opacity: 60%;
+}
+.table{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(13, 14, 14);
+    margin-top: 30%;
+    margin-left: 35%;
+    padding-top: 20px;
+    color: white;
+}
+table{
+    border: solid 1px gray;
+    border-collapse: collapse;
+}
+td{
+    border: solid 1px grey;
+    font-size: 20px;
+}
+th{
+    border: solid 1px gray;
+    font-size: 20px;
+}
+tr{
+    border: solid 1px gray; 
+}
+.newsheet{
+    width: 100%;
+    height: 500px;
+}
+.mark{
+    font-size: 25px;
+    color: orchid;
+}
+.newsheet h1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    animation-name: veriety;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes veriety{
+    0%{color: brown;}
+    20%{color: yellow;}
+    40%{color: tomato;}
+    70%{color: orange;}
+    100%{color: green;}
+}
+iframe{
+    width: 100%;
+    height:500px;
+}
+.audivideos-sheet{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+
+}
+.videos{
+    width: 300px;
+    height: 100px;
+    margin-top: 20%;
+}
+video{
+    height: 300px;
+    width: 600px;
+}
+.audimage{
+    width: 750px;
+    height: 450px;
+    margin-left: 30%;
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.image img{
+    width: 300px;
+    height: 400px;
+}
+.audio img{
+    width: 300px;
+    height: 400px;
+}
+.footer{
+   min-height: 400px;
+    width: 100%;
+    background-color: #75a277;
+    display: flex;
+}
+.footer p{
+    width: 50%;
+    font-size: 18px;
+}
+.footer a{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+.footer1{
+    height: 250px;
+    width: 100%;
+    padding-top: 100px;
+
+}
+.footer-row{
+    width: 55%;
+    margin-left: 18%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    line-height: 35px;
+}
+.footer-row p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.footer-row h5{
+    font-size: 22px;    
+}
+.footer1 img{
+    height: 40px;
+    width: 40px;
+}
+ .laast{
+    display: flex;
+    justify-content: end;
+    margin-top: -100px;
+    margin-right: 50px;
+ }
+
+
+
+
